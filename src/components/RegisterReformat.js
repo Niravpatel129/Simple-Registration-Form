@@ -91,7 +91,7 @@ class RegisterReformat extends React.Component {
 
           {this.state.optionValue === "Physician" && (
             <>
-              <span>License</span>
+              <span>License*</span>
               <InputElement
                 type="text"
                 className="form-control"
@@ -101,7 +101,7 @@ class RegisterReformat extends React.Component {
                 placeholder=""
                 required
               />
-              <span>Billing Number</span>
+              <span>Billing Number*</span>
               <InputElement
                 type="text"
                 className="form-control"
@@ -111,7 +111,7 @@ class RegisterReformat extends React.Component {
                 placeholder=""
                 required
               />
-              <span>Specialty</span>
+              <span>Specialty*</span>
               <InputElement
                 type="text"
                 className="form-control"
