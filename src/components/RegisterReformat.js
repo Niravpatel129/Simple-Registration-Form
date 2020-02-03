@@ -6,6 +6,8 @@ import InputElement from "react-input-mask";
 class RegisterReformat extends React.Component {
   constructor(props) {
     super(props);
+
+    // init state
     this.state = {
       data: [
         { value: "Select Role" },
@@ -77,7 +79,6 @@ class RegisterReformat extends React.Component {
           />
           <span>Confirm Email</span>
           <InputElement
-            type="text"
             className="form-control"
             name="Email"
             mask=""
@@ -97,7 +98,6 @@ class RegisterReformat extends React.Component {
                 name="License"
                 mask=""
                 maskChar={""}
-                type="text"
                 placeholder=""
                 required
               />
@@ -108,7 +108,6 @@ class RegisterReformat extends React.Component {
                 name="billing"
                 mask=""
                 maskChar={""}
-                type="text"
                 placeholder=""
                 required
               />
@@ -119,7 +118,6 @@ class RegisterReformat extends React.Component {
                 name="Specialty"
                 mask=""
                 maskChar={""}
-                type="text"
                 placeholder=""
                 required
               />
@@ -145,7 +143,6 @@ class RegisterReformat extends React.Component {
             name="Fax"
             mask=""
             maskChar={""}
-            type="text"
             placeholder=""
             maxLength="6"
           />
