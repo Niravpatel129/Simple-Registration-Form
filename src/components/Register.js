@@ -24,12 +24,15 @@ function Register() {
   const handleEmailInput = e => {
     setEmail(e.target.value);
   };
+
   const handleConfirmEmailInput = e => {
     setconfirmEmail(e.target.value);
   };
+
   const handlePhoneInput = e => {
     setPhone(e.target.value);
   };
+
   const handleFaxInput = e => {
     setFax(e.target.value);
   };
