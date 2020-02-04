@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
-import RegisterReformat from "./components/RegisterReformat";
+
+// import RegisterReformat from "./components/RegisterReformat";
+import Register from "./components/Register";
 
 function App() {
   return (
     <div className="App">
-      <RegisterReformat />
+      <Register />
+      {/* <RegisterReformat /> */}
     </div>
   );
 }

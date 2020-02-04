@@ -38,3 +38,12 @@
     transform: rotate(360deg);
   }
 }
+
+h4 {
+  color: red;
+  font-size: 13px;
+}
+
+p {
+  margin: 5px;
+}
