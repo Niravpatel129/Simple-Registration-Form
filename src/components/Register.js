@@ -10,6 +10,7 @@ function Register() {
     { value: "Nurse" },
     { value: "Other" }
   ];
+
   const [role, setRole] = useState("");
   const [email, setEmail] = useState("");
   const [confirmEmail, setconfirmEmail] = useState("");
